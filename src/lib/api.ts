@@ -1,6 +1,6 @@
 import { Product } from '@/types/product';
 
-const API_BASE_URL = 'http://localhost:8080/api/products';
+const API_BASE_URL = 'http://13.62.55.88:8080/api/products';
 
 export async function fetchProducts(): Promise<Product[]> {
   try {
