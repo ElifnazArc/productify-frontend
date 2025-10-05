@@ -1,6 +1,7 @@
 import { Product } from '@/types/product';
 
-const API_BASE_URL = 'http://13.62.55.88:8080/api/products';
+// Use the Next.js API route instead of directly calling the backend
+const API_BASE_URL = '/api/products';
 
 export async function fetchProducts(): Promise<Product[]> {
   try {
